@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker build -t jai-workspace .
+docker build --pull --no-cache -t jai-workspace .
